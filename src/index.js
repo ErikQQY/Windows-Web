@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Welcome from './Welcome';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import background from './background.jpg'
+import Button from 'react-desktop/windows';
+import Container from '@material-ui/core/Container';
+import { makeStyles } from '@material-ui/core/styles';
+import { render } from '@testing-library/react';
+
+function TasksBar() {
+  return (
+    <Button>
+        Press me!
+      </Button>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
